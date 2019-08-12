@@ -79,7 +79,7 @@ var BASE_STYLES = {
 // center-to-left transition on the current navigation item.
 var Stages = {
   Left: {
-    Title: merge(BASE_STYLES.Title, { left: -SCREEN_WIDTH / 2, opacity: 0 }),
+    Title: merge(BASE_STYLES.Title, { left: 0, opacity: 0 }),
     LeftButton: merge(BASE_STYLES.LeftButton, { left: 0, opacity: 0 }),
     RightButton: merge(BASE_STYLES.RightButton, { opacity: 0 }),
   },
@@ -89,7 +89,7 @@ var Stages = {
     RightButton: merge(BASE_STYLES.RightButton, { opacity: 1 }),
   },
   Right: {
-    Title: merge(BASE_STYLES.Title, { left: SCREEN_WIDTH / 2, opacity: 0 }),
+    Title: merge(BASE_STYLES.Title, { left: 0, opacity: 0 }),
     LeftButton: merge(BASE_STYLES.LeftButton, { left: 0, opacity: 0 }),
     RightButton: merge(BASE_STYLES.RightButton, { opacity: 0 }),
   },
